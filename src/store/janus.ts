@@ -152,7 +152,7 @@ class JanusStore {
       dependencies: Janus.useDefaultDependencies({ adapter }),
       callback: () => {
         this.janus = new Janus({
-          server: ["wss://janus-gateway.koreansimple.com:8188/", "https://janus-gateway.koreansimple.com/janus"],
+          server: ["wss://janus-gateway.koreansimple.com:8189/", "https://janus-gateway.koreansimple.com/janus"],
           success: () => {
             this.attach(callback);
           },
